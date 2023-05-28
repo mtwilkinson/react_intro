@@ -1,6 +1,6 @@
 function Button({setName}) {
     return <>
-        <button className={"App-button"} onClick={setName}>Change message</button>
+        <button className={"button"} onClick={setName}>Change message</button>
     </>;
 }
 

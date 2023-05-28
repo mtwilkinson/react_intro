@@ -22,7 +22,7 @@ const router = createBrowserRouter([
 ]);
 root.render(
     <React.StrictMode>
-        <h1>Learn React</h1>
+        <h1 className={"title"}>Learn React</h1>
         <RouterProvider router={router} />
     </React.StrictMode>
 );

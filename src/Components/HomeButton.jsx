@@ -1,7 +1,7 @@
 function HomeButton() {
     return <>
         <a href={`/`}>
-            <button>Return to the homepage</button>
+            <button className={"button"}>Return to the homepage</button>
         </a>
     </>;
 }

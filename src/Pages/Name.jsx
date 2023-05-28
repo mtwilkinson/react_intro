@@ -16,14 +16,14 @@ function Name() {
         setVal(event.target.value)
     }
     return (
-            <>
+            <div className={"name"}>
+                <Message name={name}/>
                 <div>
-                    <Message name={name}/>
                     <Button setName={buttonClicked} />
-                    <input onChange={change} value={val}/>
+                    <input className={"textbox"} onChange={change} value={val}/>
                 </div>
                 <HomeButton />
-            </>
+            </div>
     );
 }
 

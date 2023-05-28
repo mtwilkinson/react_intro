@@ -1,10 +1,10 @@
 function Homepage() {
-    return <>
-            <h1>this is another test.</h1>
+    return <div className={"homepage"}>
+        <h1>Welcome to React.</h1>
         <a href={`/name`}>
-            <button>Press this to add a name</button>
+            <button className={"button"}>Press this to add a name</button>
         </a>
-        </>;
+    </div>;
 }
 
 export default Homepage;
