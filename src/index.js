@@ -1,29 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import Homepage from "./Pages/Homepage.jsx";
-import Name from "./Pages/Name";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Homepage />
-    },
-    {
-        path: "/name",
-        element: <Name />,
-    },
-]);
+
 root.render(
     <React.StrictMode>
-        <h1 className={"title"}>Learn React</h1>
-        <RouterProvider router={router} />
+        <App />
     </React.StrictMode>
 );
 
